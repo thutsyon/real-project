@@ -18,12 +18,12 @@ public class DispatchActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    // Check if there is current user info
+    // If current users exists
     if (ParseUser.getCurrentUser() != null) {
-      // Start an intent for the logged in activity
+      // Start an intent for the Main activity
       startActivity(new Intent(this, MainActivity.class));
     } else {
-      // Start and intent for the logged out activity
+      // Start and intent for the Welcome (login/register) activity
       startActivity(new Intent(this, WelcomeActivity.class));
     }
   }

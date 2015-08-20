@@ -22,6 +22,7 @@
      The following permission is not required to use
      Google Maps Android API v2, but is recommended.
     -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature

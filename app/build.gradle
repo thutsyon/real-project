@@ -5,16 +5,16 @@ android {
         config {
             keyAlias 'myAndroidKey'
             keyPassword 'superluke123'
-            storeFile file('~/Documents/AndroidStudioProjects/android.jks')
+            storeFile file('/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/android.jks')
             storePassword 'superluke123'
         }
     }
-    compileSdkVersion 22
+    compileSdkVersion 23
     buildToolsVersion "22.0.1"
     defaultConfig {
         applicationId "com.parse.anywall"
-        minSdkVersion 22
-        targetSdkVersion 22
+        minSdkVersion 23
+        targetSdkVersion 23
     }
     buildTypes {
         release {
@@ -31,6 +31,6 @@ android {
 
 dependencies {
     compile files('libs/Parse-1.6.0.jar')
-    compile 'com.android.support:support-v4:22.2.1'
     compile 'com.google.android.gms:play-services:7.8.0'
+    compile 'com.android.support:support-v4:23.0.0'
 }

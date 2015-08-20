@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="22"
-        android:targetSdkVersion="22" />
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
 
     <permission
         android:name="com.parse.anywall.permission.MAPS_RECEIVE"
@@ -22,6 +22,7 @@
      The following permission is not required to use
      Google Maps Android API v2, but is recommended.
     -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature

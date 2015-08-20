@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-eee791c6b67587be30f41513f11e3d9b6d59afe2.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-056631080a4c12abbd620129e64c820e26692ba9.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-ea22cad6214e0cd8b0837f36511a3ec3fa5663d5.jar" />
     </item>
     <item
         jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
@@ -16,11 +23,81 @@
         <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-4135e24e343171a88e4c37d93c5180a3aa7ed2ca.jar" />
     </item>
     <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-e58d1f179a07c9afdfd64b20ef9997d4d2138bda.jar" />
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-9ee415d8b963ea44178889057dfc4794f2785b31.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-de40bc10c3400bd7505c9fb624d8261fff62b16f.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-a15e5617eb60e12654790b0d7e5996d168930ad3.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-bf6ddc804f98d34ae6763323bf64d9b49ac9406d.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-380ad4ed476c754c9539b61019d4a5442fe6ab43.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-e2cf29fc060e7a5ba2413adbd66af846b32297bb.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-4632a23a641b68dbb613ebba7efb919dd18f8856.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-a24f381322e8ef20e4998102d4b1e64dddb16c59.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-502f22ed3b353bbc7b0fcb914c33b13dc1acd929.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-0d4873d9968a0d83c1fff3b962b1e5ce6635f2b0.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-466f3fe3b13100871cdcbcc8cb669d1bc7f22dc3.jar" />
     </item>
     <item
         jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
@@ -28,6 +105,20 @@
         revision="22.0.1"
         sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
         <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-9f053b93a250e5754726396f5b2e2e6f1d8158eb.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-b85a142bb2d77380c7f29bc0d71372347d4fc01c.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-d606faa88cafc17e41a0bfce1f85e22fe28bdfbb.jar" />
     </item>
     <item
         jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
@@ -44,144 +135,11 @@
         <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-4e4bd62553010dccabe65c2b4c377e03c4af34cd.jar" />
     </item>
     <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-bf6ddc804f98d34ae6763323bf64d9b49ac9406d.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-8579fcf7e9eece71865352b13fd9aa6b3fc49494.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-de40bc10c3400bd7505c9fb624d8261fff62b16f.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-466f3fe3b13100871cdcbcc8cb669d1bc7f22dc3.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-0d4873d9968a0d83c1fff3b962b1e5ce6635f2b0.jar" />
-    </item>
-    <item
         jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
         <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-1f4e354d297519876efe3fe3856c91d43d319e31.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-056631080a4c12abbd620129e64c820e26692ba9.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-d606faa88cafc17e41a0bfce1f85e22fe28bdfbb.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-9ee415d8b963ea44178889057dfc4794f2785b31.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-a15e5617eb60e12654790b0d7e5996d168930ad3.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-6835ebf6e81a76b4cfb45b88fbe32aeb67c6f576.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-1b4de9a90d549908c615b77848b186b97d2166bc.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a8e58de1348c2bd5f434d7ebf0de7a17d9ce8738.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-ea22cad6214e0cd8b0837f36511a3ec3fa5663d5.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-becf6f9612f2e5cf10936cf0d3911dae903724f3.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-d3d26c4b0f8130d989fedea3c17bcbe82e8d9f30.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-380ad4ed476c754c9539b61019d4a5442fe6ab43.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/libs/Parse-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2a812174191af5a4513a873602a765b0171f252c">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/Parse-1.6.0-838e3e08bf935c34d4a6820c26731ab3cf07ad6e.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-4632a23a641b68dbb613ebba7efb919dd18f8856.jar" />
-    </item>
-    <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-502f22ed3b353bbc7b0fcb914c33b13dc1acd929.jar" />
     </item>
     <item
         jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
@@ -191,11 +149,53 @@
         <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-8a32c7750ac843ffccafff215ad452d38d5aa2b1.jar" />
     </item>
     <item
-        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jar="/Users/xueguanglu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-e2cf29fc060e7a5ba2413adbd66af846b32297bb.jar" />
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-a68c176ad1fee95ebfaa02c2b29c64cdb70609d3.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-e58d1f179a07c9afdfd64b20ef9997d4d2138bda.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-d3d26c4b0f8130d989fedea3c17bcbe82e8d9f30.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/libs/Parse-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a812174191af5a4513a873602a765b0171f252c">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/Parse-1.6.0-838e3e08bf935c34d4a6820c26731ab3cf07ad6e.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-8579fcf7e9eece71865352b13fd9aa6b3fc49494.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a8e58de1348c2bd5f434d7ebf0de7a17d9ce8738.jar" />
+    </item>
+    <item
+        jar="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/pre-dexed/debug/classes-eee791c6b67587be30f41513f11e3d9b6d59afe2.jar" />
     </item>
 
 </items>

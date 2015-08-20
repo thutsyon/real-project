@@ -59,7 +59,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:text="@string/slogan"
+        android:text="The C.O.L.A. Project\n\n         Welcome"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout><!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/layout/activity_welcome.xml -->
