@@ -29,6 +29,6 @@
         android:id="@+id/posts_listview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="2.1" />
+        android:layout_weight="1" />
 
 </LinearLayout><!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/layout/activity_main.xml -->

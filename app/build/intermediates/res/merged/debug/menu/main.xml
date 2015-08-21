@@ -5,5 +5,15 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_mapview"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_mapview"/>
 
+    <item
+        android:id="@+id/action_listview"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_listview"/>
 </menu><!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/menu/main.xml -->

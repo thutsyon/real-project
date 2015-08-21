@@ -157,11 +157,11 @@ public final class R {
 	}
 	public static final class string {
 		public static final int accept = 0x7f060038;
-		public static final int auth_google_play_services_client_facebook_display_name = 0x7f06003c;
-		public static final int auth_google_play_services_client_google_display_name = 0x7f06003d;
-		public static final int cast_notification_connected_message = 0x7f06003e;
-		public static final int cast_notification_connecting_message = 0x7f06003f;
-		public static final int cast_notification_disconnect = 0x7f060040;
+		public static final int auth_google_play_services_client_facebook_display_name = 0x7f06003e;
+		public static final int auth_google_play_services_client_google_display_name = 0x7f06003f;
+		public static final int cast_notification_connected_message = 0x7f060040;
+		public static final int cast_notification_connecting_message = 0x7f060041;
+		public static final int cast_notification_disconnect = 0x7f060042;
 		public static final int common_android_wear_notification_needs_update_text = 0x7f06000d;
 		public static final int common_android_wear_update_text = 0x7f06000e;
 		public static final int common_android_wear_update_title = 0x7f06000f;
@@ -194,11 +194,11 @@ public final class R {
 		public static final int common_open_on_phone = 0x7f06002a;
 		public static final int common_signin_button_text = 0x7f06002b;
 		public static final int common_signin_button_text_long = 0x7f06002c;
-		public static final int create_calendar_message = 0x7f060042;
-		public static final int create_calendar_title = 0x7f060043;
-		public static final int decline = 0x7f060044;
-		public static final int store_picture_message = 0x7f060061;
-		public static final int store_picture_title = 0x7f060062;
+		public static final int create_calendar_message = 0x7f060044;
+		public static final int create_calendar_title = 0x7f060045;
+		public static final int decline = 0x7f060046;
+		public static final int store_picture_message = 0x7f060063;
+		public static final int store_picture_title = 0x7f060064;
 		public static final int wallet_buy_button_place_holder = 0x7f060033;
 	}
 	public static final class style {
