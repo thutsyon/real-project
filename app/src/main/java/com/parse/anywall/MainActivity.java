@@ -139,7 +139,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
     super.onCreate(savedInstanceState);
     radius = Application.getSearchDistance();
     lastRadius = radius;
-    setContentView(R.layout.activity_main);
+    setContentView(R.layout.activity_mapview);
 
     // Create a new global location parameters object
     locationRequest = LocationRequest.create();
