@@ -5,6 +5,7 @@ import com.parse.ParseGeoPoint;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.parse.ParseFile;
 
 /**
  * Data model for a post.
@@ -34,6 +35,12 @@ public class AnywallPost extends ParseObject {
     public void setLocation(ParseGeoPoint value) {
     put("location", value);
   }
+    public void setPicture(ParseFile value){
+      put("picture", value);
+    }
 
+    public ParseFile getPicture(){
+      return getParseFile("picture");
+    }
     public static ParseQuery<AnywallPost> getQuery() { return ParseQuery.getQuery(AnywallPost.class); }
 }

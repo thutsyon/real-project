@@ -10,9 +10,13 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.IntentSender;
+import android.database.Cursor;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.location.Location;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
@@ -25,6 +29,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -61,8 +66,9 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    * Define a request code to send to Google Play services This code is returned in
    * Activity.onActivityResult
    */
+  String imgDecodableString;
   private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
-
+  private final static int RESULT_LOAD_IMG = 8000;
   /*
    * Constants for location update parameters
    */
@@ -197,34 +203,34 @@ public class MainActivity extends FragmentActivity implements LocationListener,
     postsQueryAdapter.setPaginationEnabled(false);
 
     // Attach the query adapter to the view
-    ListView postsListView = (ListView) findViewById(R.id.posts_listview);
-    postsListView.setAdapter(postsQueryAdapter);
+    //ListView postsListView = (ListView) findViewById(R.id.posts_listview);
+    //postsListView.setAdapter(postsQueryAdapter);
 
     // Set up the handler for an item's selection
-    postsListView.setOnItemClickListener(new OnItemClickListener() {
-      public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        final AnywallPost item = postsQueryAdapter.getItem(position);
-        selectedPostObjectId = item.getObjectId();
-        mapFragment.getMap().animateCamera(
-            CameraUpdateFactory.newLatLng(new LatLng(item.getLocation().getLatitude(), item
-                .getLocation().getLongitude())), new CancelableCallback() {
-              public void onFinish() {
-                Marker marker = mapMarkers.get(item.getObjectId());
-                if (marker != null) {
-                  marker.showInfoWindow();
+    /*
+      postsListView.setOnItemClickListener(new OnItemClickListener() {
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+          final AnywallPost item = postsQueryAdapter.getItem(position);
+          selectedPostObjectId = item.getObjectId();
+          mapFragment.getMap().animateCamera(
+              CameraUpdateFactory.newLatLng(new LatLng(item.getLocation().getLatitude(), item
+                  .getLocation().getLongitude())), new CancelableCallback() {
+                public void onFinish() {
+                  Marker marker = mapMarkers.get(item.getObjectId());
+                  if (marker != null) {
+                    marker.showInfoWindow();
+                  }
                 }
-              }
-
-              public void onCancel() {
-              }
-            });
-        Marker marker = mapMarkers.get(item.getObjectId());
-        if (marker != null) {
-          marker.showInfoWindow();
+                public void onCancel() {
+                }
+              });
+          Marker marker = mapMarkers.get(item.getObjectId());
+          if (marker != null) {
+            marker.showInfoWindow();
+          }
         }
-      }
-    });
-
+      });
+*/
     // Set up the map fragment
     mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map_fragment);
     // Enable the current location "blue dot"
@@ -249,7 +255,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
           return;
         }
 
-        Intent intent = new Intent(MainActivity.this, PostActivity.class);
+        Intent intent  = new Intent(MainActivity.this,imagePreviewActivity.class);
         intent.putExtra(Application.INTENT_EXTRA_LOCATION, myLoc);
         startActivity(intent);
       }
@@ -321,6 +327,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    */
   @Override
   protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
+    super.onActivityResult(requestCode, resultCode, intent);
     // Choose what to do based on the request code
     switch (requestCode) {
 
@@ -347,7 +354,6 @@ public class MainActivity extends FragmentActivity implements LocationListener,
             break;
         }
 
-        // If any other request code was received
       default:
         if (Application.APPDEBUG) {
           // Report that this Activity received an unknown requestCode
@@ -393,7 +399,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    */
   public void onConnected(Bundle bundle) {
     if (Application.APPDEBUG) {
-      Log.d("Connected to location services", Application.APPTAG);
+      Log.d("Connected to loca", Application.APPTAG);
     }
     currentLocation = getLocation();
     startPeriodicUpdates();
@@ -404,7 +410,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    */
   public void onDisconnected() {
     if (Application.APPDEBUG) {
-      Log.d("Disconnected from location services", Application.APPTAG);
+      Log.d("Disconnected from loca", Application.APPTAG);
     }
   }
 
@@ -507,6 +513,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    * Set up the query to update the map view
    */
   private void doMapQuery() {
+    System.out.println("mapQuery called");
     final int myUpdateNumber = ++mostRecentMapUpdate;
     Location myLoc = (currentLocation == null) ? lastLocation : currentLocation;
     // If location info isn't available, clean up any existing markers
@@ -540,6 +547,8 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         if (myUpdateNumber != mostRecentMapUpdate) {
           return;
         }
+
+
         // Posts to show on the map
         Set<String> toKeep = new HashSet<String>();
         // Loop through the results of the search

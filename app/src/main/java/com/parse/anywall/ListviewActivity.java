@@ -197,11 +197,11 @@ public class ListviewActivity extends FragmentActivity implements LocationListen
         postsQueryAdapter.setPaginationEnabled(false);
 
         // Attach the query adapter to the view
-        ListView postsListView = (ListView) findViewById(R.id.posts_listview);
-        postsListView.setAdapter(postsQueryAdapter);
+        ListView postsGirdView = (ListView) findViewById(R.id.posts_girdview);
+        postsGirdView.setAdapter(postsQueryAdapter);
 
         // Set up the handler for an item's selection
-        postsListView.setOnItemClickListener(new OnItemClickListener() {
+        postsGirdView.setOnItemClickListener(new OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 final AnywallPost item = postsQueryAdapter.getItem(position);
                 selectedPostObjectId = item.getObjectId();
@@ -393,7 +393,7 @@ public class ListviewActivity extends FragmentActivity implements LocationListen
      */
     public void onConnected(Bundle bundle) {
         if (Application.APPDEBUG) {
-            Log.d("Connected to location services", Application.APPTAG);
+            Log.d("Connected to loca", Application.APPTAG);
         }
         currentLocation = getLocation();
         startPeriodicUpdates();
@@ -404,7 +404,7 @@ public class ListviewActivity extends FragmentActivity implements LocationListen
      */
     public void onDisconnected() {
         if (Application.APPDEBUG) {
-            Log.d("Disconnected from location services", Application.APPTAG);
+            Log.d("Disconnected from loca", Application.APPTAG);
         }
     }
 

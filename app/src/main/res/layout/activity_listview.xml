@@ -18,16 +18,9 @@
         android:text="@string/post"
         android:textAppearance="?android:attr/textAppearanceSmallInverse" />
 
-    <fragment
-        android:id="@+id/map_fragment"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
-        android:layout_marginTop="1dp" />
 
-    <ListView
-        android:id="@+id/posts_listview"
+    <GirdView
+        android:id="@+id/posts_girdview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="0" />

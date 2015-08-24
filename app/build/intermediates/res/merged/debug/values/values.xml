@@ -360,6 +360,11 @@
     <!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/values/strings_activity_login.xml -->
     <eat-comment/>
     <string name="progress_signup">Signing you up…</string>
+    <!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="progress_upload">Uploading…</string>
+    <!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/values/strings_activity_login.xml -->
+    <eat-comment/>
     <string name="prompt_password">Password</string>
     <string name="prompt_password_again">Password Again</string>
     <!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/src/main/res/values/strings.xml -->
