@@ -269,7 +269,7 @@
     <string name="action_mapview">Map</string>
     <string name="action_settings">Settings</string>
     <string name="activity_post_title">Create a Post</string>
-    <string name="app_name">Anywall</string>
+    <string name="app_name">The COLA</string>
     <!-- From: file:/Users/xueguanglu/Documents/AndroidStudioProjects/Anywall/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/res/values/auth_strings.xml -->
     <eat-comment/>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>

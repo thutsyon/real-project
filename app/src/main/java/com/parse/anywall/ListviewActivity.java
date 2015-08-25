@@ -24,6 +24,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -197,7 +198,7 @@ public class ListviewActivity extends FragmentActivity implements LocationListen
         postsQueryAdapter.setPaginationEnabled(false);
 
         // Attach the query adapter to the view
-        ListView postsGirdView = (ListView) findViewById(R.id.posts_girdview);
+        GridView postsGirdView = (GridView) findViewById(R.id.posts_girdview);
         postsGirdView.setAdapter(postsQueryAdapter);
 
         // Set up the handler for an item's selection

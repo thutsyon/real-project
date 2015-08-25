@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
-    <View
+    <ImageView
         android:id="@+id/picture_view"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>

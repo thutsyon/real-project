@@ -24,7 +24,7 @@ import java.io.ByteArrayOutputStream;
 
 public class imagePreviewActivity extends Activity {
     private static int RESULT_LOAD_IMG = 1;
-    String imgDecodableString;
+    String imgDecodableString = null;
     private ParseGeoPoint geoPoint;
     ImageView imgView;
 
@@ -38,7 +38,11 @@ public class imagePreviewActivity extends Activity {
     }
 
     public void postIt(View view) {
-        System.out.println(imgDecodableString);
+        if (imgDecodableString==null){
+            Toast.makeText(imagePreviewActivity.this,
+                    "选个图片儿，赶紧的", Toast.LENGTH_SHORT).show();
+            return;
+        }
         final ProgressDialog dialog = new ProgressDialog(imagePreviewActivity.this);
         dialog.setMessage(getString(R.string.progress_upload));
         dialog.show();
@@ -107,7 +111,7 @@ public class imagePreviewActivity extends Activity {
                         .decodeFile(imgDecodableString));
 
             } else {
-                Toast.makeText(this, "You haven't picked Image",
+                Toast.makeText(this, "选个图片好不好..",
                         Toast.LENGTH_LONG).show();
             }
         //} //catch (Exception e) {

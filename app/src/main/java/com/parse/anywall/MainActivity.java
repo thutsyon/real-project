@@ -11,6 +11,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.location.Location;
@@ -190,8 +191,10 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         }
         TextView contentView = (TextView) view.findViewById(R.id.content_view);
         TextView usernameView = (TextView) view.findViewById(R.id.username_view);
+        ImageView pictureView = (ImageView) view.findViewById(R.id.picture_view);
         contentView.setText(post.getText());
         usernameView.setText(post.getUser().getUsername());
+        //TODO set picture data to the view
         return view;
       }
     };
@@ -251,7 +254,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         Location myLoc = (currentLocation == null) ? lastLocation : currentLocation;
         if (myLoc == null) {
           Toast.makeText(MainActivity.this,
-              "Please try again after your location appears on the map.", Toast.LENGTH_LONG).show();
+              "你到底在哪儿啊？？", Toast.LENGTH_LONG).show();
           return;
         }
 
@@ -741,9 +744,9 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         return true;
       }
     });
-    menu.findItem(R.id.action_listview).setOnMenuItemClickListener(new OnMenuItemClickListener() {
+    menu.findItem(R.id.action_gridview).setOnMenuItemClickListener(new OnMenuItemClickListener() {
       public boolean onMenuItemClick(MenuItem item) {
-        startActivity(new Intent(MainActivity.this, ListviewActivity.class));
+        startActivity(new Intent(MainActivity.this, GirdviewActivity.class));
         return true;
       }
     });

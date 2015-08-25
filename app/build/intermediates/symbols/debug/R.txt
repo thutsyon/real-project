@@ -566,7 +566,7 @@ int id action_bar_title 0x7f0c0040
 int id action_button 0x7f0c0076
 int id action_context_bar 0x7f0c005e
 int id action_divider 0x7f0c009d
-int id action_listview 0x7f0c00a8
+int id action_gridview 0x7f0c00a8
 int id action_mapview 0x7f0c00a7
 int id action_menu_divider 0x7f0c0002
 int id action_menu_presenter 0x7f0c0003

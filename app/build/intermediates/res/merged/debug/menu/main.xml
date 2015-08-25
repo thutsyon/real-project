@@ -12,7 +12,7 @@
         android:title="@string/action_mapview"/>
 
     <item
-        android:id="@+id/action_listview"
+        android:id="@+id/action_gridview"
         android:orderInCategory="100"
         android:showAsAction="always"
         android:title="@string/action_listview"/>

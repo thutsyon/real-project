@@ -40,10 +40,12 @@
 
     <application
         android:name=".Application"
+        android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
 
         <service android:name="com.parse.PushService" />
         <receiver android:name="com.parse.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">

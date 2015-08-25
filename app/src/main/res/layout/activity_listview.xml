@@ -19,10 +19,14 @@
         android:textAppearance="?android:attr/textAppearanceSmallInverse" />
 
 
-    <GirdView
+    <GridView
         android:id="@+id/posts_girdview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0" />
+        android:numColumns="3"
+        android:horizontalSpacing="5px"
+        android:verticalSpacing="5px"
+        android:layout_weight="1"
 
+        />
 </LinearLayout>
